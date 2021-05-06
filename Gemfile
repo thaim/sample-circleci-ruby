@@ -52,7 +52,7 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
-  gem 'simplecov', require: false
+  gem 'simplecov', '< 0.19.0', require: false
   gem 'rspec_junit_formatter'
 end
 
